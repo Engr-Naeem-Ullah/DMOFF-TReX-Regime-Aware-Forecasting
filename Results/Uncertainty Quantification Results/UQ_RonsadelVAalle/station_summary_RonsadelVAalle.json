@@ -1,0 +1,20 @@
+{
+  "station": "RonsadelVAalle",
+  "n_samples_total": 13783,
+  "n_samples_calibration": 4134,
+  "n_samples_evaluation": 9649,
+  "best_method": "conformal",
+  "conformal_quantile": 7.762006963241441,
+  "calibrated_ensemble_coverage": 0.9850761736967562,
+  "calibrated_ensemble_width": 30.355972073825775,
+  "calibrated_ensemble_calibration_error": 0.08507617369675613,
+  "calibrated_ensemble_rmse": 4.774102636261483,
+  "conformal_coverage": 0.9097315784019069,
+  "conformal_width": 15.524013926482889,
+  "conformal_calibration_error": 0.00973157840190686,
+  "conformal_rmse": 4.677690253578275,
+  "quantile_coverage": 0.8189449683905068,
+  "quantile_width": 34.4587242548817,
+  "quantile_calibration_error": 0.08105503160949323,
+  "quantile_rmse": 7.672631144408439
+}

@@ -1,0 +1,6 @@
+Station,Samples_Total,Samples_Eval,Best_Method,Calibrated_Ensemble_Coverage,Calibrated_Ensemble_Width,Calibrated_Ensemble_Calib_Error,Conformal_Coverage,Conformal_Width,Conformal_Calib_Error,Quantile_Coverage,Quantile_Width
+Aljarafe,8511,5958,Conformal,0.873,20.43,0.027,0.889,19.42,0.011,0.818,37.21
+Asomadilla,245,172,Calibrated Ensemble,0.965,31.41,0.065,0.988,33.47,0.088,0.634,56.90
+Bermejales,2772,1941,Calibrated Ensemble,0.873,27.20,0.027,0.854,21.46,0.046,0.750,35.09
+RonsadelVAalle,13783,9649,Conformal,0.985,30.36,0.085,0.910,15.52,0.010,0.819,34.46
+Torneo,12202,8542,Conformal,0.970,27.92,0.070,0.928,18.96,0.028,0.828,32.61

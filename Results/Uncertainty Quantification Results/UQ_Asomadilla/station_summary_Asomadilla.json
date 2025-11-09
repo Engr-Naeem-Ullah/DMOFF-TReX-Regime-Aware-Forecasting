@@ -1,0 +1,20 @@
+{
+  "station": "Asomadilla",
+  "n_samples_total": 245,
+  "n_samples_calibration": 73,
+  "n_samples_evaluation": 172,
+  "best_method": "calibrated_ensemble",
+  "conformal_quantile": 16.736530318385757,
+  "calibrated_ensemble_coverage": 0.9651162790697675,
+  "calibrated_ensemble_width": 31.408865650745547,
+  "calibrated_ensemble_calibration_error": 0.06511627906976747,
+  "calibrated_ensemble_rmse": 7.972403823062958,
+  "conformal_coverage": 0.9883720930232558,
+  "conformal_width": 33.473060636771514,
+  "conformal_calibration_error": 0.08837209302325577,
+  "conformal_rmse": 7.992239328260879,
+  "quantile_coverage": 0.6337209302325582,
+  "quantile_width": 56.90282447815408,
+  "quantile_calibration_error": 0.26627906976744187,
+  "quantile_rmse": 18.930291122863633
+}
