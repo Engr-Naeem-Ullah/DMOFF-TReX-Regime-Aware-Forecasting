@@ -1,0 +1,288 @@
+{
+  "station": "Asomadilla",
+  "total_samples": 245,
+  "scenarios": {
+    "baseline": {
+      "regimes": {
+        "1": {
+          "baseline_mean_o3": 67.13588152866242,
+          "counterfactual_mean_o3": 67.13588152866242,
+          "absolute_change_mean": 0.0,
+          "percent_change_mean": 0.0,
+          "n_samples": 157,
+          "regime_characteristics": {
+            "DD_mean": 185.1613573248408,
+            "DD_std": 84.51256902706248,
+            "NO2_mean": 10.21549872611465,
+            "NO2_std": 5.026714424809521,
+            "PM10_mean": 12.069000636942675,
+            "PM10_std": 4.6722351151475205,
+            "TMP_mean": 11.01592611464968,
+            "TMP_std": 3.109054727791616,
+            "VV_mean": 2.12314076433121,
+            "VV_std": 1.4566532120317757,
+            "O3_mean": 67.13588152866242,
+            "O3_std": 20.213080892072444,
+            "temp_category": "moderate",
+            "wind_category": "moderate"
+          }
+        },
+        "3": {
+          "baseline_mean_o3": 31.88431882352941,
+          "counterfactual_mean_o3": 31.88431882352941,
+          "absolute_change_mean": 0.0,
+          "percent_change_mean": 0.0,
+          "n_samples": 85,
+          "regime_characteristics": {
+            "DD_mean": 178.03136823529414,
+            "DD_std": 77.66674980551478,
+            "NO2_mean": 29.656863529411755,
+            "NO2_std": 12.22637853659871,
+            "PM10_mean": 16.350982352941177,
+            "PM10_std": 4.020459434424321,
+            "TMP_mean": 8.811765882352942,
+            "TMP_std": 3.1673811551934365,
+            "VV_mean": 0.2117705882352941,
+            "VV_std": 0.2947822533035954,
+            "O3_mean": 31.88431882352941,
+            "O3_std": 20.500567777256304,
+            "temp_category": "cold",
+            "wind_category": "calm"
+          }
+        }
+      }
+    },
+    "traffic_reduction_20pct": {
+      "regimes": {
+        "1": {
+          "baseline_mean_o3": 62.14092398837546,
+          "counterfactual_mean_o3": 62.29423041978543,
+          "absolute_change_mean": 0.15330643140997466,
+          "percent_change_mean": 0.24647945449933312,
+          "n_samples": 157,
+          "n_samples_analyzed": 157,
+          "regime_characteristics": {
+            "DD_mean": 185.1613573248408,
+            "DD_std": 84.51256902706248,
+            "NO2_mean": 10.21549872611465,
+            "NO2_std": 5.026714424809521,
+            "PM10_mean": 12.069000636942675,
+            "PM10_std": 4.6722351151475205,
+            "TMP_mean": 11.01592611464968,
+            "TMP_std": 3.109054727791616,
+            "VV_mean": 2.12314076433121,
+            "VV_std": 1.4566532120317757,
+            "O3_mean": 67.13588152866242,
+            "O3_std": 20.213080892072444,
+            "temp_category": "moderate",
+            "wind_category": "moderate"
+          },
+          "model_used": "LightGBM",
+          "features_used": 41,
+          "expected_features": 41
+        },
+        "3": {
+          "baseline_mean_o3": 45.31023760101248,
+          "counterfactual_mean_o3": 45.04849014668932,
+          "absolute_change_mean": -0.2617474543231555,
+          "percent_change_mean": -0.5166186655337828,
+          "n_samples": 85,
+          "n_samples_analyzed": 85,
+          "regime_characteristics": {
+            "DD_mean": 178.03136823529414,
+            "DD_std": 77.66674980551478,
+            "NO2_mean": 29.656863529411755,
+            "NO2_std": 12.22637853659871,
+            "PM10_mean": 16.350982352941177,
+            "PM10_std": 4.020459434424321,
+            "TMP_mean": 8.811765882352942,
+            "TMP_std": 3.1673811551934365,
+            "VV_mean": 0.2117705882352941,
+            "VV_std": 0.2947822533035954,
+            "O3_mean": 31.88431882352941,
+            "O3_std": 20.500567777256304,
+            "temp_category": "cold",
+            "wind_category": "calm"
+          },
+          "model_used": "LightGBM",
+          "features_used": 41,
+          "expected_features": 41
+        }
+      }
+    },
+    "industrial_controls_30pct": {
+      "regimes": {
+        "1": {
+          "baseline_mean_o3": 62.14092398837546,
+          "counterfactual_mean_o3": 63.83565772514909,
+          "absolute_change_mean": 1.6947337367736217,
+          "percent_change_mean": 2.8099841094063267,
+          "n_samples": 157,
+          "n_samples_analyzed": 157,
+          "regime_characteristics": {
+            "DD_mean": 185.1613573248408,
+            "DD_std": 84.51256902706248,
+            "NO2_mean": 10.21549872611465,
+            "NO2_std": 5.026714424809521,
+            "PM10_mean": 12.069000636942675,
+            "PM10_std": 4.6722351151475205,
+            "TMP_mean": 11.01592611464968,
+            "TMP_std": 3.109054727791616,
+            "VV_mean": 2.12314076433121,
+            "VV_std": 1.4566532120317757,
+            "O3_mean": 67.13588152866242,
+            "O3_std": 20.213080892072444,
+            "temp_category": "moderate",
+            "wind_category": "moderate"
+          },
+          "model_used": "LightGBM",
+          "features_used": 41,
+          "expected_features": 41
+        },
+        "3": {
+          "baseline_mean_o3": 45.31023760101248,
+          "counterfactual_mean_o3": 46.70336762230772,
+          "absolute_change_mean": 1.3931300212952507,
+          "percent_change_mean": 3.31797707787845,
+          "n_samples": 85,
+          "n_samples_analyzed": 85,
+          "regime_characteristics": {
+            "DD_mean": 178.03136823529414,
+            "DD_std": 77.66674980551478,
+            "NO2_mean": 29.656863529411755,
+            "NO2_std": 12.22637853659871,
+            "PM10_mean": 16.350982352941177,
+            "PM10_std": 4.020459434424321,
+            "TMP_mean": 8.811765882352942,
+            "TMP_std": 3.1673811551934365,
+            "VV_mean": 0.2117705882352941,
+            "VV_std": 0.2947822533035954,
+            "O3_mean": 31.88431882352941,
+            "O3_std": 20.500567777256304,
+            "temp_category": "cold",
+            "wind_category": "calm"
+          },
+          "model_used": "LightGBM",
+          "features_used": 41,
+          "expected_features": 41
+        }
+      }
+    },
+    "clean_energy_transition": {
+      "regimes": {
+        "1": {
+          "baseline_mean_o3": 62.14092398837546,
+          "counterfactual_mean_o3": 64.23956391496863,
+          "absolute_change_mean": 2.0986399265931683,
+          "percent_change_mean": 3.4913787814047033,
+          "n_samples": 157,
+          "n_samples_analyzed": 157,
+          "regime_characteristics": {
+            "DD_mean": 185.1613573248408,
+            "DD_std": 84.51256902706248,
+            "NO2_mean": 10.21549872611465,
+            "NO2_std": 5.026714424809521,
+            "PM10_mean": 12.069000636942675,
+            "PM10_std": 4.6722351151475205,
+            "TMP_mean": 11.01592611464968,
+            "TMP_std": 3.109054727791616,
+            "VV_mean": 2.12314076433121,
+            "VV_std": 1.4566532120317757,
+            "O3_mean": 67.13588152866242,
+            "O3_std": 20.213080892072444,
+            "temp_category": "moderate",
+            "wind_category": "moderate"
+          },
+          "model_used": "LightGBM",
+          "features_used": 41,
+          "expected_features": 41
+        },
+        "3": {
+          "baseline_mean_o3": 45.31023760101248,
+          "counterfactual_mean_o3": 46.90749082484787,
+          "absolute_change_mean": 1.5972532238353931,
+          "percent_change_mean": 3.813828168774695,
+          "n_samples": 85,
+          "n_samples_analyzed": 85,
+          "regime_characteristics": {
+            "DD_mean": 178.03136823529414,
+            "DD_std": 77.66674980551478,
+            "NO2_mean": 29.656863529411755,
+            "NO2_std": 12.22637853659871,
+            "PM10_mean": 16.350982352941177,
+            "PM10_std": 4.020459434424321,
+            "TMP_mean": 8.811765882352942,
+            "TMP_std": 3.1673811551934365,
+            "VV_mean": 0.2117705882352941,
+            "VV_std": 0.2947822533035954,
+            "O3_mean": 31.88431882352941,
+            "O3_std": 20.500567777256304,
+            "temp_category": "cold",
+            "wind_category": "calm"
+          },
+          "model_used": "LightGBM",
+          "features_used": 41,
+          "expected_features": 41
+        }
+      }
+    },
+    "winter_heating_restrictions": {
+      "regimes": {
+        "1": {
+          "baseline_mean_o3": 62.14092398837546,
+          "counterfactual_mean_o3": 65.45504789834656,
+          "absolute_change_mean": 3.3141239099710984,
+          "percent_change_mean": 5.477136272977399,
+          "n_samples": 157,
+          "n_samples_analyzed": 157,
+          "regime_characteristics": {
+            "DD_mean": 185.1613573248408,
+            "DD_std": 84.51256902706248,
+            "NO2_mean": 10.21549872611465,
+            "NO2_std": 5.026714424809521,
+            "PM10_mean": 12.069000636942675,
+            "PM10_std": 4.6722351151475205,
+            "TMP_mean": 11.01592611464968,
+            "TMP_std": 3.109054727791616,
+            "VV_mean": 2.12314076433121,
+            "VV_std": 1.4566532120317757,
+            "O3_mean": 67.13588152866242,
+            "O3_std": 20.213080892072444,
+            "temp_category": "moderate",
+            "wind_category": "moderate"
+          },
+          "model_used": "LightGBM",
+          "features_used": 41,
+          "expected_features": 41
+        },
+        "3": {
+          "baseline_mean_o3": 45.31023760101248,
+          "counterfactual_mean_o3": 47.325666703510585,
+          "absolute_change_mean": 2.0154291024981084,
+          "percent_change_mean": 4.746232824986501,
+          "n_samples": 85,
+          "n_samples_analyzed": 85,
+          "regime_characteristics": {
+            "DD_mean": 178.03136823529414,
+            "DD_std": 77.66674980551478,
+            "NO2_mean": 29.656863529411755,
+            "NO2_std": 12.22637853659871,
+            "PM10_mean": 16.350982352941177,
+            "PM10_std": 4.020459434424321,
+            "TMP_mean": 8.811765882352942,
+            "TMP_std": 3.1673811551934365,
+            "VV_mean": 0.2117705882352941,
+            "VV_std": 0.2947822533035954,
+            "O3_mean": 31.88431882352941,
+            "O3_std": 20.500567777256304,
+            "temp_category": "cold",
+            "wind_category": "calm"
+          },
+          "model_used": "LightGBM",
+          "features_used": 41,
+          "expected_features": 41
+        }
+      }
+    }
+  }
+}
