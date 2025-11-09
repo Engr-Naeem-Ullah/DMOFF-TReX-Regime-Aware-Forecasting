@@ -1,0 +1,18 @@
+{
+  "station": "Bermejales",
+  "threshold": 74.3333,
+  "extreme_count": 142,
+  "extreme_ratio": 0.051226551226551224,
+  "validation_auroc": 0.996195652173913,
+  "evaluation_auroc": 0.9933681138915909,
+  "optimal_threshold": 0.18,
+  "precision": 0.6833333333333333,
+  "recall": 0.9534883720930233,
+  "f1_score": 0.7961165048543689,
+  "n_features": 56,
+  "early_warning_lead_times": 4,
+  "early_warning_1h_auroc": 1.0,
+  "early_warning_3h_auroc": 1.0,
+  "early_warning_6h_auroc": 1.0,
+  "early_warning_12h_auroc": 1.0
+}

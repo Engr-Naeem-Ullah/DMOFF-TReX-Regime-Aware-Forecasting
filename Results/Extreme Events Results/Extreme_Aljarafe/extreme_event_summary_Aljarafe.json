@@ -1,0 +1,18 @@
+{
+  "station": "Aljarafe",
+  "threshold": 118.3333,
+  "extreme_count": 427,
+  "extreme_ratio": 0.05017036775937023,
+  "validation_auroc": 0.9965547703180211,
+  "evaluation_auroc": 0.9949376545754328,
+  "optimal_threshold": 0.33,
+  "precision": 0.8115942028985508,
+  "recall": 0.875,
+  "f1_score": 0.8421052631578947,
+  "n_features": 51,
+  "early_warning_lead_times": 4,
+  "early_warning_1h_auroc": 1.0,
+  "early_warning_3h_auroc": 1.0,
+  "early_warning_6h_auroc": 1.0,
+  "early_warning_12h_auroc": 1.0
+}

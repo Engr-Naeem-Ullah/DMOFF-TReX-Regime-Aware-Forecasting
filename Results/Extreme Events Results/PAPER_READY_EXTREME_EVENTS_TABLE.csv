@@ -1,0 +1,6 @@
+Station,Threshold,Extreme_Events,Extreme_Ratio,AUROC,Precision,Recall,F1_Score,Early_Warning_1h,Early_Warning_6h
+Aljarafe,118.3,427,0.050,0.995,0.812,0.875,0.842,1.0,1.0
+Asomadilla,95.2,13,0.053,0.968,0.500,1.000,0.667,1.0,1.0
+Bermejales,74.3,142,0.051,0.993,0.683,0.953,0.796,1.0,1.0
+RonsadelVAalle,115.3,695,0.050,0.995,0.867,0.780,0.821,1.0,1.0
+Torneo,98.0,615,0.050,0.996,0.886,0.881,0.883,1.0,1.0

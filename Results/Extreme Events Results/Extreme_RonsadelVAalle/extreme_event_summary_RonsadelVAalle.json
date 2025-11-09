@@ -1,0 +1,18 @@
+{
+  "station": "RonsadelVAalle",
+  "threshold": 115.3333,
+  "extreme_count": 695,
+  "extreme_ratio": 0.05042443589929623,
+  "validation_auroc": 0.9946794449974972,
+  "evaluation_auroc": 0.9954358990608556,
+  "optimal_threshold": 0.44,
+  "precision": 0.8670212765957447,
+  "recall": 0.7799043062200957,
+  "f1_score": 0.8211586901763224,
+  "n_features": 56,
+  "early_warning_lead_times": 4,
+  "early_warning_1h_auroc": 1.0,
+  "early_warning_3h_auroc": 1.0,
+  "early_warning_6h_auroc": 1.0,
+  "early_warning_12h_auroc": 1.0
+}

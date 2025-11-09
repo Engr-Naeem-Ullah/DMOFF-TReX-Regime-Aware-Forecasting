@@ -1,0 +1,18 @@
+{
+  "station": "Asomadilla",
+  "threshold": 95.23329999999999,
+  "extreme_count": 13,
+  "extreme_ratio": 0.053061224489795916,
+  "validation_auroc": 0.9696969696969696,
+  "evaluation_auroc": 0.9678571428571429,
+  "optimal_threshold": 0.2,
+  "precision": 0.5,
+  "recall": 1.0,
+  "f1_score": 0.6666666666666666,
+  "n_features": 56,
+  "early_warning_lead_times": 4,
+  "early_warning_1h_auroc": 1.0,
+  "early_warning_3h_auroc": 1.0,
+  "early_warning_6h_auroc": 1.0,
+  "early_warning_12h_auroc": 1.0
+}

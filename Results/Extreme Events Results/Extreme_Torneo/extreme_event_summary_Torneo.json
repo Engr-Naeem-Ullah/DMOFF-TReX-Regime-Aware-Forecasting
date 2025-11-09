@@ -1,0 +1,18 @@
+{
+  "station": "Torneo",
+  "threshold": 98.0,
+  "extreme_count": 615,
+  "extreme_ratio": 0.050401573512538926,
+  "validation_auroc": 0.9944117267764261,
+  "evaluation_auroc": 0.9955556246695487,
+  "optimal_threshold": 0.38,
+  "precision": 0.8858695652173914,
+  "recall": 0.8810810810810811,
+  "f1_score": 0.8834688346883469,
+  "n_features": 56,
+  "early_warning_lead_times": 4,
+  "early_warning_1h_auroc": 1.0,
+  "early_warning_3h_auroc": 1.0,
+  "early_warning_6h_auroc": 1.0,
+  "early_warning_12h_auroc": 1.0
+}
