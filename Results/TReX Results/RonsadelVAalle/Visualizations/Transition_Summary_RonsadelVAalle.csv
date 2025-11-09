@@ -1,0 +1,6 @@
+Transition_Point,From_Regime,To_Regime,Driving_Features,N_Driving_Features
+78,3,4,"PM10, PM10_lag2, day, weekday, TMP_lag2, TMP_lag24, VV_lag1, VV_lag24, TMP_lag1, PM10_lag24, TMP_lag3, O3_lag24, PM10_lag1, PM10_lag3",14
+80,4,3,"PM10, hour, PM10_lag2, day, weekday, TMP_lag2, VV_lag24, TMP_lag1, PM10_lag24, TMP_lag3, O3_lag24, PM10_lag1, PM10_lag3, DD_lag24",14
+91,3,2,None,0
+97,2,3,"day, TMP, weekday, TMP_lag2, TMP_lag24, TMP_lag1, PM10_lag24, NO2_lag24, TMP_lag3",9
+98,3,4,"day, TMP, weekday, TMP_lag2, hour_sin, TMP_lag24, TMP_lag1, PM10_lag24, NO2_lag24, TMP_lag3, DD_lag24",11
