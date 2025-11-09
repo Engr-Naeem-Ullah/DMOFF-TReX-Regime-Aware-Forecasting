@@ -1,0 +1,17 @@
+TReX FRAMEWORK - COMPREHENSIVE REPORT
+==================================================
+
+Station: Aljarafe
+Analysis Date: 2025-11-09 20:15:32
+Framework: TReX v3.0 - Publication Ready
+
+NOVEL CONTRIBUTIONS:
+  • Regime-Aware SHAP with Feature Alignment
+  • Temporal Influence Graphs
+  • Regime Transition Analysis
+  • Cross-Regime Consistency Analysis
+
+SUMMARY:
+  • Regimes Analyzed: 5
+  • Transitions Analyzed: 5
+  • Features: 38
