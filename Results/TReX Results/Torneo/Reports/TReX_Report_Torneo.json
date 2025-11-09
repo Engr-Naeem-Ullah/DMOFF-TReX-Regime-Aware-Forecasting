@@ -1,0 +1,16 @@
+{
+  "station": "Torneo",
+  "timestamp": "2025-11-09 21:02:09",
+  "framework": "TReX v3.0 - Publication Ready",
+  "novel_contributions": [
+    "Regime-Aware SHAP with Feature Alignment",
+    "Temporal Influence Graphs",
+    "Regime Transition Analysis",
+    "Cross-Regime Consistency Analysis"
+  ],
+  "summary": {
+    "n_regimes_analyzed": 5,
+    "n_transitions_analyzed": 5,
+    "n_features": 43
+  }
+}
