@@ -1,6 +1,0 @@
-Transition_Point,From_Regime,To_Regime,Driving_Features,N_Driving_Features
-2,4,1,None,0
-7,1,0,None,0
-15,0,3,None,0
-21,3,4,None,0
-26,4,1,"VV_lag3, PM10_lag2, CO_lag1, VV_lag2, VV_lag1, PM10_lag24, CO_lag2, CO, CO_lag3, hour_cos, PM10_lag3",11
